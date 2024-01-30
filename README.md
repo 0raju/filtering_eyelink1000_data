@@ -3,7 +3,7 @@
 
 This is the source code for our research titled - 
 Filtering Eye-Tracking Data From an EyeLink 1000: Comparing Heuristic, Savitzky-Golay, IIR and FIR Digital Filters.
-Paper is published in JEMR -https://bop.unibe.ch/JEMR/article/view/9888
+The paper is published in JEMR -https://bop.unibe.ch/JEMR/article/view/9888.
 Everything needed to recreate the analysis and regenerate the figures is included.
 
 **Cite**
