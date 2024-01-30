@@ -1,11 +1,14 @@
 **Overview**
 ---------------------------------------------------------------------------
 
-This is source code for our research titled - 
+This is the source code for our research titled - 
 Filtering Eye-Tracking Data From an EyeLink 1000: Comparing Heuristic, Savitzky-Golay, IIR and FIR Digital Filters.
-Paper is in preprint - https://digital.library.txstate.edu/handle/10877/16492
-Everything needed to recreate the anlysis and regenerate the figures is included.
+Paper is published in JEMR - https://digital.library.txstate.edu/handle/10877/16492](https://bop.unibe.ch/JEMR/article/view/9888)
+Everything needed to recreate the analysis and regenerate the figures is included.
 
+**Cite**
+---------------------------------------------------------------------------
+Raju, M. H., Friedman, L., Bouman, T., & Komogortsev, O. (2023). Filtering eye-tracking data from an EyeLink 1000: Comparing heuristic, savitzky-golay, IIR and FIR digital filters. Journal of Eye Movement Research, 14(3). https://doi.org/10.16910/jemr.14.3.6
 
 
 **License**
