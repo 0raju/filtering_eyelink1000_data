@@ -39,7 +39,7 @@ def autocorelation_function(directories_list):
             data = df["x"].to_numpy()
             
             acorr = sm.tsa.acf(data, nlags=nlags)      # Calculate the autocorrelation function of the data up to the specified number of lags         
-            acorr[0:1] = np.NaN                        # Set the first lag to be NaN to avoid division by zero errors
+            acorr[0:1] = np.nan                        # Set the first lag to be NaN to avoid division by zero errors
 
             acorr_list.append(acorr)
 
