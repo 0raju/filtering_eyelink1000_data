@@ -29,11 +29,11 @@ please feel free to email the author, Mehedi Hasan Raju (m.raju@txstate.edu)
 
 **Folder/File Description**
 ----------------------------------------------------------------------------
-The project directory has the following structure:
+The project directory has the following structure: ----> You will find the data here--https://digital.library.txst.edu/items/d6416ea5-ece6-4711-ba83-4853b69f87cd
 
-`Code` : Contains the Python code required to generate the figures. 
+`Code`: Contains the Python code required to generate the figures. 
 
-`DataForFigures` : All the data required to re-generate the figures. We have shared all the collected data required to recreate all the experiments here. It contains seven sub-folders. Four sub-folder is already given,  three more folders will be created here with filtered data when generate_figures.py will be run.
+`DataForFigures`: All the data required to re-generate the figures. We have shared all the collected data required to recreate all the experiments here. It contains seven sub-folders. Four sub-folder is already given,  three more folders will be created here with filtered data when generate_figures.py is run.
 
 	1. `UnFiltered_Data`: All 216 segments of Unfiltered data (collected with EyeLink 1000 with filter level OFF)
 	2. `STD_Filtered_Data`: All 216 segments of STD_filtered data (collected with EyeLink 1000 with filter level STD)
@@ -44,16 +44,16 @@ The project directory has the following structure:
 	7. `FIR_Filtered_Data` - All 216 segments of FIR filtered version of the UnFiltered Data.
 	
 
-`ManuscriptFigures` -- This folder is left empty intentionally, and the generated figures will be saved here after running the code.
+`ManuscriptFigures` -- This folder is intentionally left empty; the generated figures will be saved here after running the code.
 
-`filtering.yml` -- Compatible environemnt to run the code.
+`filtering.yml` -- Compatible environment to run the code.
 
 
 
 **Steps to run the code and Replicate the Figures**
 ----------------------------------------------------------------------------
 
-1. Create a virtual environment from given `filtering.yml` file (for example: `filtering`)
+1. Create a virtual environment from the given `filtering.yml` file (for example: `filtering`)
 ``` bash
 	$ conda env create -f filtering.yml
 	$ conda activate filtering
