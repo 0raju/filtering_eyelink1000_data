@@ -38,10 +38,10 @@ The project directory has the following structure: ----> You will find the data 
 	1. `UnFiltered_Data`: All 216 segments of Unfiltered data (collected with EyeLink 1000 with filter level OFF)
 	2. `STD_Filtered_Data`: All 216 segments of STD_filtered data (collected with EyeLink 1000 with filter level STD)
 	3. `EXTRA_Filtered_Data`: All 216 segments of EXTRA_filtered data (collected with EyeLink 1000 with filter level EXTRA)
-	4. `Exemplar_Data` - Contain a noisy exemplar of Random saccade data for generating Figure 5.
-	5. `SG_Filtered_Data` - All 216 segments of Savitzky Golay filtered version of the UnFiltered Data.
-	6. `IIR_Filtered_Data` - All 216 segments of IIR Butterworth filtered version of the UnFiltered Data.
-	7. `FIR_Filtered_Data` - All 216 segments of FIR filtered version of the UnFiltered Data.
+	4. `Exemplar_Data`: Contain a noisy exemplar of Random saccade data for generating Figure 5.
+	5. `SG_Filtered_Data`: All 216 segments of Savitzky Golay filtered version of the UnFiltered Data.
+	6. `IIR_Filtered_Data`: All 216 segments of IIR Butterworth filtered version of the UnFiltered Data.
+	7. `FIR_Filtered_Data`: All 216 segments of FIR filtered version of the UnFiltered Data.
 	
 
 `ManuscriptFigures` -- This folder is intentionally left empty; the generated figures will be saved after running the code.
